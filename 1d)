@@ -1,0 +1,25 @@
+programa
+{
+    funcao inicio()
+    {
+        logico flamengo
+        logico selecao
+        logico resultado
+
+        flamengo = verdadeiro
+        selecao = verdadeiro
+
+        
+      resultado = flamengo e selecao
+
+        
+        se (resultado)
+        {
+            escreva("A proposição (flamengo é seleção) é verdadeiro.\n")
+ }
+        senao
+{
+            escreva("A proposição (flamengo é seleção) é falso.\n")
+        }
+    }
+}
