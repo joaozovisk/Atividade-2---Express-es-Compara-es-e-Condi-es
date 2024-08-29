@@ -1,0 +1,25 @@
+programa
+{
+    funcao inicio()
+    {
+       
+        inteiro lado_esquerdo
+         inteiro lado_direito
+          cadeia resultado
+
+          lado_esquerdo = 2 * 4
+          lado_direito = 24 / 3
+
+        
+        se (lado_esquerdo == lado_direito)
+        {
+            resultado = "verdadeiro"
+        }
+        senao
+        {
+            resultado = "falso"
+        }
+
+        escreva("A proposição 2 * 4 == 24 / 3 é ", resultado, ".\n")
+    }
+}
