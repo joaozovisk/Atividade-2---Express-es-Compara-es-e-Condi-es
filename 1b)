@@ -1,0 +1,23 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro lado_esquerdo
+        inteiro lado_direito
+        cadeia resultado
+        
+        lado_esquerdo = 15 % 4
+         lado_direito = 19 % 6
+
+         se (lado_esquerdo < lado_direito)
+        {
+            resultado = "verdadeiro"
+}
+         senao
+        {
+            resultado = "falso"
+}
+
+        escreva("A proposição (15 % 4) < (19 % 6) é ", resultado, ".\n")
+    }
+}
