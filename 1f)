@@ -1,0 +1,18 @@
+programa
+{
+    funcao inicio()
+    {
+        logico resultado
+
+        resultado = verdadeiro e (7 / 2 > 3.5)
+
+        se (resultado)
+        {
+            escreva("A proposição verdadeiro e ( (7 / 2) > 3.5 ) é verdadeiro.\n")
+        }
+        senao
+        {
+            escreva("A proposição verdadeiro e ( (7 / 2) > 3.5 ) é falso.\n")
+        }
+    }
+}
