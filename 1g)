@@ -1,0 +1,24 @@
+programa
+{
+    funcao inicio()
+    {
+        logico resultado
+        inteiro arredondado
+        real raiz
+  
+        arredondado = 3 
+
+        raiz = 3 
+
+        resultado = (arredondado == 3) e (raiz == 3)
+
+        se (resultado)
+        {
+            escreva("A proposição (Mat.arredondar(2.8, 0) == 3) e (Mat.raiz(9) == 3) é verdadeira.\n")
+        }
+        senao
+        {
+            escreva("A proposição (Mat.arredondar(2.8, 0) == 3) e (Mat.raiz(9) == 3) é falsa.\n")
+        }
+    }
+}
