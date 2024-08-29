@@ -1,0 +1,24 @@
+programa
+{
+    inclua biblioteca Matematica
+    funcao inicio()
+    {
+        inteiro lado_esquerdo
+         inteiro lado_direito
+         cadeia resultado
+
+    lado_esquerdo = 2 * 2
+     lado_direito = Matematica.potencia(2, 2)
+
+        se (lado_esquerdo == lado_direito)
+        {
+            resultado = "verdadeiro"
+        }
+        senao
+        {
+            resultado = "falso"
+        }
+
+        escreva("A proposição 2 * 2 == Matematica.potencia(2, 2) é ", resultado, ".\n")
+    }
+}
