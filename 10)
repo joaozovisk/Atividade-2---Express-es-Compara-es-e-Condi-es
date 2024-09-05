@@ -1,0 +1,23 @@
+programa
+{
+    funcao inicio()
+    {
+        real velocidade
+        real limite = 80
+        real multa
+        real valorPorKm = 7
+
+        escreva("Digite a velocidade do carro (em km/h): ")
+         leia(velocidade)
+
+        se (velocidade > limite)
+        {
+        multa = (velocidade - limite) * valorPorKm
+         escreva("Você foi multado! O valor da multa é R$ ", multa)
+        }
+        senao
+        {
+        escreva("Você está dentro do limite de velocidade. Não foi multado.")
+        }
+    }
+}
