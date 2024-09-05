@@ -1,0 +1,59 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro codigo
+        real quantidade, precoUnitario, valorTotal
+
+        // Inicializa precoUnitario com um valor padrão
+        precoUnitario = 0.00
+
+        escreva("Digite o código do item: ")
+         leia(codigo)
+
+         escreva("Digite a quantidade desejada: ")
+          leia(quantidade)
+
+
+        se (codigo == 100)
+        {
+            precoUnitario = 5.00
+        }
+        senao se (codigo == 101)
+        {
+            precoUnitario = 2.60
+        }
+        senao se (codigo == 102)
+        {
+            precoUnitario = 3.80
+        }
+        senao se (codigo == 103)
+        {
+            precoUnitario = 9.00
+        }
+        senao se (codigo == 104)
+        {
+            precoUnitario = 11.00
+        }
+        senao se (codigo == 105)
+        {
+            precoUnitario = 3.00
+        }
+        senao se (codigo == 106)
+        {
+            precoUnitario = 1000.00
+        }
+        senao
+        {
+            escreva("Código do item inválido.")
+
+        }
+
+
+        se (precoUnitario > 0.00)
+        {
+            valorTotal = precoUnitario * quantidade
+            escreva("O valor a ser pago é R$ ", valorTotal)
+        }
+    }
+}
